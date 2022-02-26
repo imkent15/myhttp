@@ -5,8 +5,10 @@ Capable of making parallel requests. User can provide a flag to indicate the max
 ### Build Instructions
 Clone the repository
  - https://github.com/imkent15/myhttp.git
+ 
 Move inside the root directory
  - cd myhttp
+ 
 Issue the below command to build the tool
  - go build .
  
