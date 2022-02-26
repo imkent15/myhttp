@@ -10,7 +10,7 @@ Move inside the root directory
  - cd myhttp
  
 Issue the below command to build the tool
- - go build .
+ - go build -o myhttp
  
 ### Executing the tool
 User can execute this tool by providing the web addresses as arguments.
