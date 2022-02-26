@@ -16,4 +16,6 @@ Issue the below command to build the tool
 User can execute this tool by providing the web addresses as arguments.
 User can also set the -parallel flag to indicate the max no of parallel processors.
 If the parallel flag is not set, the value will be defaulted to 10.
-the below are few examples and their responses.
+
+### Execution Results
+![Alt text](./results.PNG?raw=true "Execution Results")
