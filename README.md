@@ -19,3 +19,7 @@ If the parallel flag is not set, the value will be defaulted to 10.
 
 ### Execution Results
 ![Alt text](./results.PNG?raw=true "Execution Results")
+
+### Validations
+Tool at the moment will not perform much validations. This can be improved in the next version based on the requirements. 
+However at the moment user can input either google.com or http://google.com. Scheme will be appened by the tool if not present.
