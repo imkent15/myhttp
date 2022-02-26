@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"myhttp/httpclient"
 )
 
@@ -13,5 +14,11 @@ func main() {
 	flag.Parse()
 
 	addresses := flag.Args()
+
+	if *maxParallel > len(addresses) {
+		*maxParallel = len(addresses)
+		fmt.Printf("Max Parallel reduced to [%d] no of addresses\n", *maxParallel)
+	}
+
 	httpclient.ParallelFetch(*maxParallel, addresses)
 }
